@@ -5,57 +5,57 @@ Gradient is a plagiarism detection and grading system for teachers. It started a
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
-### 🖥️ Dashboard — Overview
+###  Dashboard — Overview
 ![Dashboard Overview](dashboard_proff_X.png)
 > Command center showing session stats: students registered, assignments loaded, pairs checked, flagged count, session integrity score, and step-by-step workflow guide.
 
 ---
 
-### 👥 Students Roster
+###  Students Roster
 ![Students](Students.png)
 > Register students with full name and ID. The roster table shows assigned marks live after the plagiarism check runs.
 
 ---
 
-### 📄 Assignments Submissions
+###  Assignments Submissions
 ![Assignments](Assignments.png)
 > Paste each student's assignment text one by one. The sidebar tracks total loaded, students registered, and pairs to compare — with a "Proceed to Check" button when ready.
 
 ---
 
-### 📊 Results Report
+###  Results Report
 ![Results](Results_of_plagiarism.png)
 > Detailed pairwise comparison output. High-plagiarism pairs are highlighted in red, medium in yellow, with similarity %, marks assigned, and pair labels shown per row.
 
 ---
 
-### 💬 Student Query — Lookup
+###  Student Query — Lookup
 ![Query](Query.png)
 > Dispute resolution panel where the instructor looks up a student by ID to retrieve their stored record.
 
 ---
 
-### ✅ Student Query — Verdict
+###  Student Query — Verdict
 ![Query Solved](Query_solved.png)
 > After entering the student's claimed marks, the system compares against stored marks and issues an automatic verdict.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🏠 **Overview Dashboard** — Session integrity score, live stats, and step-by-step workflow guide
-- 👥 **Student Roster** — Register students with name and ID; view marks after analysis
-- 📄 **Assignment Submissions** — Paste and manage assignment texts per student
-- 🔍 **Plagiarism Check** — Word-matching similarity algorithm comparing all submission pairs
-- 📊 **Results Report** — Color-coded pairwise output (High / Medium / Low) with marks
-- 💬 **Student Query & Dispute Resolution** — Look up a student record and issue a verdict on mark complaints
-- 💾 **File Persistence** — Results saved to `students.txt` via C++ file handling
+-  **Overview Dashboard** — Session integrity score, live stats, and step-by-step workflow guide
+-  **Student Roster** — Register students with name and ID; view marks after analysis
+-  **Assignment Submissions** — Paste and manage assignment texts per student
+-  **Plagiarism Check** — Word-matching similarity algorithm comparing all submission pairs
+-  **Results Report** — Color-coded pairwise output (High / Medium / Low) with marks
+-  **Student Query & Dispute Resolution** — Look up a student record and issue a verdict on mark complaints
+-  **File Persistence** — Results saved to `students.txt` via C++ file handling
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -66,7 +66,7 @@ Gradient is a plagiarism detection and grading system for teachers. It started a
 
 ---
 
-## 🧩 OOP Architecture (C++ Backend)
+##  OOP Architecture (C++ Backend)
 
 ```
 User  (base class)
@@ -84,7 +84,7 @@ ReportFileHandler  — file I/O for saving & querying results
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 gradient/
@@ -99,7 +99,7 @@ gradient/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### C++ Backend
 ```bash
@@ -112,5 +112,5 @@ Open `frontend/index.html` in your browser — no installations required.
 
 ---
 
-## 👤 Author
+##  Author
 **Yamna Kamal**
