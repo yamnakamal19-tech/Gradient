@@ -1,4 +1,4 @@
-# GR GRADIENT
+# GRADIENT
 ### Academic Integrity Engine
 
 Gradient is a plagiarism detection and grading system for teachers. It started as a console-based C++ application and was later extended with a full web frontend — giving instructors a clean dashboard to register students, submit assignments, run plagiarism checks, review results, and resolve student mark disputes.
